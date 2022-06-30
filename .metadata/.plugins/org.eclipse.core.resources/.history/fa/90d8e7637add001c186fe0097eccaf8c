@@ -1,0 +1,22 @@
+package com.png.firstclass;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class test {
+	public static void main(String[] args) {
+//		int n = 4;
+//		int left = 7;
+//		int right = 14;
+//		
+//	       List<Long> list = new ArrayList<>();
+//	        
+//	        for(long i=left;i<right+1;i++){
+//	             list.add(Math.max(i/n,i%n) + 1);
+//	        }
+//	        System.out.println(list);
+		
+		System.out.println(7%4);
+	}
+}

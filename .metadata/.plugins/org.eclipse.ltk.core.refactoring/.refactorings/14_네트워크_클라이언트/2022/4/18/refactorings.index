@@ -1,0 +1,4 @@
+1650849867313	Extract local variable 'serverIP'
+1650850104038	Extract local variable 'socket'
+1650853377292	Extract local variable 'bufferedReader'
+1650853498685	Extract local variable 'pw'

@@ -1,0 +1,16 @@
+package com.kh.lambda.basic;
+
+public class A_Lambda {
+	public void method1() {
+		Thread thread;
+		
+		thread = new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				
+			}
+		}); 
+	}
+}

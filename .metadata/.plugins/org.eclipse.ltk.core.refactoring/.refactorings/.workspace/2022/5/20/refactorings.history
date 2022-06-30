@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;HashMap_코드/src/com/kh/map/hashmap/_interface/Interface.java&apos;" deleteContents="false" description="Delete resource &apos;HashMap_코드/src/com/kh/map/hashmap/_interface/Interface.java&apos;" element1="/HashMap_코드/src/com/kh/map/hashmap/_interface/Interface.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1652090506975"/>
+</session>

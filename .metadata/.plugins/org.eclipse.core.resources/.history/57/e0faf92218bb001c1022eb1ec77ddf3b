@@ -1,0 +1,20 @@
+package com.png.firstclass;
+
+public class 피포나치 {
+	public static void main(String[] args) {
+		int n = 3;
+		
+		System.out.println(fb(n));
+	}
+	
+	public static int fb(int n) {
+		int sum = 0;
+		if(n==0) return 0;
+		if(n == 1) return 1;
+		else {
+			sum = (fb(n-1) + fb(n-2))%1234567;
+		}
+		return sum;
+	}
+
+}

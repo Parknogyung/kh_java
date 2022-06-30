@@ -1,0 +1,35 @@
+package com.png.firstclass;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class test {
+	public static void main(String[] args) {
+		String number = "94534412342321433345212315435234134132314234";
+		int k = 12;
+		StringBuilder answer = new StringBuilder();
+		int cnt = 0;
+		ArrayList<Integer> arr = new ArrayList<Integer>();
+		int index = 0;
+		for (int i = 0; i < number.length(); i++) {
+			arr.add(Integer.valueOf(number.charAt(i)-48));
+		}
+		
+		while(true) {
+			if(cnt == k) break;
+			for(int i = 0; i < arr.size() ; i++) {
+				if(arr.get(i) < arr.get(i+1)) {
+					arr.remove(i);
+					cnt++;
+					index = i-1;
+					break;
+				}
+			}
+		}
+			for(int i = 0; i < arr.size() ; i++) {
+				answer.append(arr.get(i));
+			}
+			System.out.println(answer);
+	}
+
+}

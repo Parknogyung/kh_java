@@ -1,0 +1,34 @@
+package com.png.firstclass;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+
+
+public class test {
+	public static void main(String[] args) {
+		String s = "{{2},{2,1},{2,1,3},{2,1,3,4}}";
+		ArrayList<Integer> answer = new ArrayList<Integer>(); // 튜플을 저장하기 위한 ArrayList
+		s = s.substring(2, s.length());						  // 앞에 {{ 제거
+		s = s.substring(0, s.length()-2).replace("},{", " "); // 뒤에 }} 제거하고 원소를 구분하기위한 },{ 공백변경
+		String[] str = s.split(" ");						  // 공백을 기준으로 배열 저장
+		
+		Arrays.sort(str, new Comparator<String>() {			  // 배열의 원소의 길이를 기준으로 정렬
+			public int compare(String o1, String o2) {
+				return Integer.compare(o1.length(), o2.length());
+			}
+		});
+				
+		for (String string : str) {							  // str의 원소를 하나 씩 넣어 한글자 씩 입력받아 tmp 배열에 넣기
+			String[] tmp = string.split(",");
+			
+			for(int i = 0; i < tmp.length; i++) {
+				int n = Integer.parseInt(tmp[i]);	          // 정수형으로 반환되어야 하기 때문에 정수 하나씩 비교한다.
+				if(!answer.contains(n)) {
+					answer.add(n);
+				}
+			}
+ 		}
+		System.out.println(answer);
+ 	}
+}

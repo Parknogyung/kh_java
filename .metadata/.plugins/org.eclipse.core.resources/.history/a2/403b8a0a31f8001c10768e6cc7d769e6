@@ -1,0 +1,7 @@
+package com.kh.lambda.basic;
+
+public class C_MethodReference {
+	public void method1() {
+		IntBinaryOperator
+	}
+}

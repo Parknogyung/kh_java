@@ -1,0 +1,5 @@
+1650848836864	Rename local variable 'client'
+1650848891972	Rename local variable 'clinet'
+1650851100550	Extract local variable 'is'
+1650851134542	Extract local variable 'os'
+1650851262776	Extract local variable 'vr'

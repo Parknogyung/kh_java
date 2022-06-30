@@ -1,0 +1,16 @@
+package com.png.firstclass;
+
+public class test {
+		public void test() {}
+		public void test(String str) {}
+		public void test(int i) {}
+		public void test(String s, int a, int b) {}
+		public void test(char ch) {}
+		public void test(String str, int i) {}
+		public void test(int i, String str) {}
+		public void test(int i, char sta) {}
+		public int test(int i, int s) {return 0;}
+		
+	}
+
+}

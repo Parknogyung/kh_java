@@ -1,0 +1,27 @@
+package com.kh.lambda.basic;
+
+import com.kh.lambda.basic.functional.A_FunctionalInterface;
+
+public class B_Functional {
+	public void method1() {
+		A_FunctionalInterface fi = () -> {
+			System.out.println("매개변수와 반환값이 없는 람다식");
+		};
+		
+		fi.method();
+
+//		fi = new A_FunctionalInterface() {
+//			
+//			@Override
+//			public void method() {
+//				System.out.println("익명 구현 객체를 사용한 인터페이스");
+//			}
+//		};
+//		
+//		fi.method();
+	}
+	
+	public void method2() {
+		System.out.println("실행 테스트");
+	}
+}

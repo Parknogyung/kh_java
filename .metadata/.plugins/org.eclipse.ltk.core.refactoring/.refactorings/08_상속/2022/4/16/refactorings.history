@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;ds&apos; in &apos;com.kh.inherit.Application.main(...)&apos; to &apos;desktop&apos;&#x0D;&#x0A;- Original project: &apos;08_상속&apos;&#x0D;&#x0A;- Original element: &apos;com.kh.inherit.Application.main(String[]).ds&apos;&#x0D;&#x0A;- Renamed element: &apos;ds&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;ds&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.kh.inherit{Application.java[Application~main~\[QString;@ds!163!228!171!172!QDesktop;!0!false" name="desktop" references="true" stamp="1649817799059" version="1.0"/>
+</session>

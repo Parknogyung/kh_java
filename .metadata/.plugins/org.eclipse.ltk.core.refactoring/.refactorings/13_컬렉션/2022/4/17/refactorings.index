@@ -1,0 +1,11 @@
+1650519301595	Extract local variable 'iterator'
+1650519635434	Extract local variable 'arrayList'
+1650520197845	Copy compilation unit
+1650520400479	Rename local variable 'list'
+1650591269776	Extract local variable 'snack'
+1650593304445	Extract local variable 'set'
+1650593424770	Rename local variable 'str'
+1650593794449	Extract local variable 'it'
+1650593848385	Rename local variable 'it'
+1650595312442	Extract local variable 'entrySet'
+1650595447287	Rename local variable 'val'

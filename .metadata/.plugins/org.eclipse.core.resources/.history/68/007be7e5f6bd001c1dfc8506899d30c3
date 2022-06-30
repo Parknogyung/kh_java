@@ -1,0 +1,15 @@
+package com.png.firstclass;
+
+import java.util.Arrays;
+import java.util.Comparator;
+
+public class test {
+	public static void main(String[] args) {
+		String[] phone_book = {"1234","456","789"};
+		boolean answer = true;
+		
+		Arrays.sort(phone_book);
+		
+		System.out.println(Arrays.toString(phone_book));
+	}
+}

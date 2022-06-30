@@ -1,0 +1,9 @@
+package com.png.firstclass;
+
+public class test {
+	public static void main(String[] args) {
+		int n = 3;
+		String[] words = {"tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"}
+	}
+
+}

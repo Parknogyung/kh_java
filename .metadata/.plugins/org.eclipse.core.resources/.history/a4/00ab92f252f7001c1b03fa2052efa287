@@ -1,0 +1,11 @@
+package com.kh.lambda.basic;
+
+import com.kh.lambda.basic.functional.A_FunctionalInterface;
+
+public class B_Functional {
+	public void method1() {
+		A_FunctionalInterface fi = () -> {
+			
+		};
+	}
+}

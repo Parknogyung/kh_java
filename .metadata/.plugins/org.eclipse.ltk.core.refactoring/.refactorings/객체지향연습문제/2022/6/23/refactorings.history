@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;minera&apos; in &apos;_5장_연습문제.com.q7.MineralCalculator.add(...)&apos; to &apos;mineral&apos;&#x0D;&#x0A;- Original project: &apos;객체지향연습문제&apos;&#x0D;&#x0A;- Original element: &apos;_5장_연습문제.com.q7.MineralCalculator.add(minera).minera&apos;&#x0D;&#x0A;- Renamed element: &apos;minera&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;minera&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;_5장_연습문제.com.q7{Main.java[MineralCalculator~add~Qminera;@minera!347!359!354!359!Qminera;!0!true" name="mineral" references="true" stamp="1654171197641" version="1.0"/>
+</session>

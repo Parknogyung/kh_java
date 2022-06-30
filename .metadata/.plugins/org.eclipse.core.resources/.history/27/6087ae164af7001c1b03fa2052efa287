@@ -1,0 +1,7 @@
+package com.kh.lambda.basic;
+
+public class A_Lambda {
+	public void method1() {
+		System.out.println("method1");
+	}
+}

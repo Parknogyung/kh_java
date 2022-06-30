@@ -1,0 +1,11 @@
+package com.kh.lambda.basic;
+
+import java.util.function.IntBinaryOperator;
+
+public class C_MethodReference {
+	public void method1() {
+		IntBinaryOperator binaryOperator = (a, b) -> Math.max(a, b);
+	
+		System.out.println(binaryOperator.applyAsInt(10, 20));
+	}
+}

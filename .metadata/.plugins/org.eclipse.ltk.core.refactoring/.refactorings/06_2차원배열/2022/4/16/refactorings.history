@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;sum&apos; in &apos;com.kh.dimension.practice.DimensionPractice.practice4()&apos; to &apos;sum_j&apos;&#x0D;&#x0A;- Original project: &apos;06_2차원배열&apos;&#x0D;&#x0A;- Original element: &apos;com.kh.dimension.practice.DimensionPractice.practice4().sum&apos;&#x0D;&#x0A;- Renamed element: &apos;sum&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;sum&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.kh.dimension.practice{DimensionPractice.java[DimensionPractice~practice4@sum!1085!1095!1089!1091!I!0!false" name="sum_j" references="true" stamp="1649582512185" version="1.0"/>
+</session>

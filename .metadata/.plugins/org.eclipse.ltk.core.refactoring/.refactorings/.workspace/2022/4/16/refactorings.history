@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;05_배열/src/com/kh/array/team/merge.java&apos;" deleteContents="false" description="Delete resource &apos;05_배열/src/com/kh/array/team/merge.java&apos;" element1="/05_배열/src/com/kh/array/team/merge.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1649810796985"/>&#x0A;<refactoring comment="Rename resource &apos;07_객체실습3_본인이름&apos; to &apos;07_객체실습3_박노경&apos;" description="Rename resource &apos;07_객체실습3_본인이름&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/07_객체실습3_본인이름" name="07_객체실습3_박노경" stamp="1649843086895" updateReferences="true"/>
+</session>
